@@ -135,6 +135,11 @@ header h1 {
     width: 100%;
     height: auto;
     margin: 20px auto;
+    display: flex;
+    justify-content: left;
+    align-items: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .project-logo {
@@ -151,6 +156,11 @@ header h1 {
     float: right;
     margin: 10px auto;
     flex: 2 3 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .task {
