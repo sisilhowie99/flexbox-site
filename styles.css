@@ -170,3 +170,44 @@ header h1 {
     font-weight: 600;
     font-size: 1em;
 }
+
+/* Footer styles */
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: rgb(245, 245, 245);
+    margin-top: 50px;
+}
+
+.copyright {
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+
+.contact {
+    width: 60%;
+    height: auto;
+    text-align: right;
+    flex: 2 1 1;
+}
+
+.socials img {
+    width: 7%;
+    height: auto;
+    margin: 0 10px;
+}
+
+.socials img:hover {
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+}
+
+.disabled {
+    display: none;
+}
