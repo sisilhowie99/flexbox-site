@@ -163,6 +163,10 @@ header h1 {
     flex-wrap: wrap;
 }
 
-.task {
-    margin-top: 4%;
+.location {
+    width: 100%;
+    margin: 15px auto;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1em;
 }
