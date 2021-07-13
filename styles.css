@@ -89,7 +89,7 @@ header h1 {
     text-align: center;
 }
 
-/* Main */
+/* Main styles */
 
 /* Mission section */
 .mission {
@@ -117,6 +117,7 @@ header h1 {
     margin-bottom: 20px;
 }
 
+/* Projects section */
 .projects {
     min-width: 350px;
     width: 85%;
